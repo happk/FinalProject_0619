@@ -1,0 +1,12 @@
+epilson: 0.7006666666666996
+
+gamma = 0.9
+losses = []
+mem_size = 1000
+batch_size = 200  # 越大浮動越小
+replay = deque(maxlen=mem_size)
+max_moves = 40
+syn_freq_1 = 100
+syn_freq_2 = 100
+syn_freq_3 = 100
+epsilon = 1.

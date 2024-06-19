@@ -1,0 +1,13 @@
+epilson: 0.9479000000000057
+
+
+gamma = 0.9
+losses = []
+mem_size = 100
+batch_size = 20  # 先偵錯
+replay = deque(maxlen=mem_size)
+max_moves = 40
+syn_freq_1 = 50
+syn_freq_2 = 50
+syn_freq_3 = 50
+epsilon = 1.
